@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*my code*/
+
+/*modifying scrollbar aspect*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+/*adding Rubik font*/
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./ressources/fonts/Rubik/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./ressources/fonts/Rubik/Rubik-Medium.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./ressources/fonts/Rubik/Rubik-Bold.ttf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("./ressources/fonts/Rubik/Rubik-Light.ttf");
+  font-weight: lighter;
+}
+
+
+html {
+  background: url('./ressources/images/backgroundHomeFinalProcessed.jpeg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;    
+  min-height: "100%";
+}
+
+
+h1,h2,h3,h4,h5, div {
+  font-family: "Rubik";
+  font-weight: normal
+}
+
+.RegistrationForm {
+  margin: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.HomePage {
+  margin: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.Footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.3rem;
+  background-color: white;
+  text-align: center;
+  border-top: 3mm ridge #90d058;
+}
+
+.SolidaFormPage {
+  display:'flex';
+  justify-content:'center';
+  align-items:'center';
+  margin-top: "110px"; 
+  margin-bottom:"120px";
+  overflow-x: hidden;
+}
+
+
+/*to fine tune margin and padding for sm and xs screens*/
+
+@media only screen and (max-height: 820px) {
+  .RegistrationForm {
+    padding-top: 1.7vh !important;
+    padding-bottom: 110px;
+  }  
+  #registerForm {
+    padding-top: 4.3vh !important;
+    padding-bottom: 110px;    
+  }
+  #editForm {
+    padding-top: 2vh !important;
+    padding-bottom: 110px;    
+  }
+  .HomePage {
+    padding-top: 20px;
+  }
+}
+
+
+/*for transition effect btw pages*/
+
+.fade-enter {
+  opacity: 0.001;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0.001;
+  transition: opacity 250ms;
+}
+.transition-group {
+  position: relative;
+}
+section.route-section {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+/*class for item links*/
+.itemLink:hover {
+  text-decoration: underline  !important;
+}
+ 
+
