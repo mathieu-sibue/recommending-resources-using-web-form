@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "5e7c8e217d5bf1269cbb4c1e"
+  },
+  "questionText": "Utilisez-vous des outils de conception graphique (Adobe, Canva, Gimp...) ?",
+  "theme": "Gagnez en visibilité sur le web",
+  "products": [
+    {
+      "$oid": "5e98bac452c2453784e67f99"
+    },
+    {
+      "$oid": "5e9a1561e7087439e8c0d693"
+    }
+  ],
+  "tutorials": [
+    {
+      "$oid": "5e96dee4f5f4ef26906dcd49"
+    }
+  ],
+  "order": 2,
+  "createdAt": {
+    "$date": "2020-03-26T11:12:33.386Z"
+  },
+  "__v": 0
+}]

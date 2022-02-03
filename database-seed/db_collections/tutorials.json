@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "5e96dee4f5f4ef26906dcd49"
+  },
+  "tutorialName": "Des tutoriels pour maîtriser les outils d'Adobe.",
+  "tutorialLink": "http://bit.ly/tuto_adobe_sol",
+  "tutorialDescription": "L'équipe TechSoup partenaire de Solidatech vous a préparé de nouveaux tutoriels pour dynamiser vos supports de communication grâce aux logiciels Photoshop, InDesign et Illustrator.",
+  "createdAt": {
+    "$date": "2020-04-15T10:16:04.985Z"
+  },
+  "__v": 0
+}]

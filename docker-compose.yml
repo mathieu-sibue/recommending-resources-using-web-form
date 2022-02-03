@@ -1,0 +1,56 @@
+version: '3.7'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: solidaform-backend-image
+    container_name: solidaform-backend
+    ports:
+      - "8800:8800"
+    depends_on:
+      - database
+    env_file: ./backend/.env
+    networks:
+      - app-network
+
+  database:
+    image: mongo
+    container_name: solidaform-database
+    volumes:
+      - data-volume:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - app-network
+
+  database-seed:
+    image: solidaform-database-seed-image
+    container_name: solidaform-database-seed
+    build:
+      context: ./database-seed
+      dockerfile: Dockerfile
+    # links: 
+    #   - database
+    networks: 
+      - app-network
+
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: solidaform-client-image
+    container_name: solidaform-client
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+networks:
+    app-network:
+        driver: bridge
+
+volumes:
+    data-volume:
