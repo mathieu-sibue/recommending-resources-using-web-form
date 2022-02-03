@@ -1,4 +1,4 @@
-# Recommending resources to NGOs with a form-based web app
+# Recommending resources to NGOs with a web app
 
 <p align="center">
   <a href="#"><img src="./resources/sponsors.png" width="250" title="sponsors"></a>
