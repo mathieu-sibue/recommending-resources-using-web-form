@@ -61,7 +61,7 @@ The repository is organized in the following way:
 ## :wrench:	Techs used
 
 All the code was written in ```JavaScript```, ```HTML```, and ```CSS``` :desktop_computer::
-> - the frontend was coded using mainly ```React``` and its Context API, ```Material-UI``` for the visual interface, and ``Àxios``` to query the backend via HTTP
+> - the frontend was coded using mainly ```React``` and its Context API, ```Material-UI``` for the visual interface, and ```Axios``` to query the backend via HTTP
 > - the backend was coded using mainly ```Node.js``` and the ```Express``` framework
 > - the database leverages ```MongoDB``` to store JS-like objects.
 
