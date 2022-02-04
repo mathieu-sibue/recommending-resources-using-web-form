@@ -71,6 +71,7 @@ Thanks to:
 > - Céline Recio
 > - Clémence David
 > - Arnaud Guibbert
+
 for your contribution to this project!
 
 ## :warning: Disclaimer
