@@ -45,17 +45,17 @@ As the web app is in French, I recommend using the Google Translate functionalit
 ## :file_folder: Repository organization
 
 The repository is organized in the following way:
-> - the ```client``` folder contains all the frontend components that compose the user interface (both for clients and admins)
+> - the ```client``` folder contains all the frontend components that compose the user interface (both for clients and admins); the diagram below illustrates the interdependencies between the files
 <p align="center">
-  <a href="#"><img src="./resources/frontend.png" width="530" title="frontend"></a>
+  <a href="#"><img src="./resources/frontend.png" width="600" title="frontend"></a>
 </p>
 
-> - the ```backend``` folder contains all the backend routes and services (such as the resource ranking algorithm)
+> - the ```backend``` folder contains all the backend routes and services (such as the resource ranking algorithm); the diagram below illustrates the interdependencies between the files
 <p align="center">
-  <a href="#"><img src="./resources/backend.png" width="530" title="backend"></a>
+  <a href="#"><img src="./resources/backend.png" width="600" title="backend"></a>
 </p>
 
-> - the ```database-seed``` folder contains a few dummy records of each type of object stored in the database (users, questions, products, tutorials, userResponses,...).
+> - the ```database-seed``` folder contains a few dummy records of each type of object stored in the database (User, Question, Product, Tutorial, UserResponse,...).
 
 
 ## :wrench:	Techs used
