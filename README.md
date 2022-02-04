@@ -49,11 +49,13 @@ The repository is organized in the following way:
 <p align="center">
   <a href="#"><img src="./resources/frontend.png" width="530" title="frontend"></a>
 </p>
-> - the ```backend```folder contains all the backend routes and services (such as the resource ranking algorithm)
+
+> - the ```backend``` folder contains all the backend routes and services (such as the resource ranking algorithm)
 <p align="center">
   <a href="#"><img src="./resources/backend.png" width="530" title="backend"></a>
 </p>
-> - the ```database-seed```folder contains a few dummy records of each type of object stored in the database (users, questions, products, tutorials, userResponses,...)
+
+> - the ```database-seed``` folder contains a few dummy records of each type of object stored in the database (users, questions, products, tutorials, userResponses,...).
 
 
 ## :wrench:	Techs used
