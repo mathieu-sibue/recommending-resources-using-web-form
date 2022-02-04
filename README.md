@@ -76,4 +76,4 @@ for your contribution on this project!
 
 ## :warning: Disclaimer
 
-For security purposes, some information was redacted from the code.
+For security purposes, some information was removed from the code.
