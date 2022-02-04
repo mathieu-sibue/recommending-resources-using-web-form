@@ -65,6 +65,14 @@ All the code was written in ```JavaScript```, ```HTML```, and ```CSS``` :desktop
 > - the backend was coded using mainly ```Node.js``` and the ```Express``` framework
 > - the database leverages ```MongoDB``` to store JS-like objects.
 
+## :family_man_woman_girl_boy: Credits
+
+Thanks to:
+> - Céline Recio
+> - Clémence David
+> - Arnaud Guibbert
+for your contribution to this project!
+
 ## :warning: Disclaimer
 
 For security purposes, some information was redacted from the code.
