@@ -20,16 +20,19 @@ In a few words:
   <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.jpeg" width="900" title="website"></a>
 </p>
 
-To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Here is a **dummy account** to explore a bit more the web app:
+To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Here are the credentials of a **dummy account** for you to explore a bit more the web app:
 > - **email:** ```jane.doe1982@gmail.com```
 > - **password:** ```ezpassword```
-As the web app is in French, we recommend using the Google Translate functionality on Google Chrome to translate the pages in English.
+As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages in English.
+
+\
 
 Typical user journey for a client:
 > 1. user connects to the web app from Solidatech's website
 > 2. user creates or connects to an account and lands on home page (=> use the credentials provided above)
 > 3. user fills the questionaire divided in 7 sections (answers are then sent to the backend of the web app to compute personalized recommendations based on a scoring algorithm and editable rules defined by Solidatech)
-> 4. user is redirected to a dashboard gathering most relevant product & tutorial suggestions.
+> 4. user is redirected to a dashboard gathering most relevant product & tutorial suggestions
+> 5. user disconnects from the website; same results will be still be available later on.
 
 In the case of the dummy account provided above, its affiliated organization has:
 > :pinched_fingers: mediocre network animation \
@@ -38,7 +41,14 @@ In the case of the dummy account provided above, its affiliated organization has
 > :-1: poor project funding \
 > :pinched_fingers: mediocre human and financial resources management \
 > :-1: poor securization of web resources and compliance with regulations \
-> :+1: very good management of digital transformation strategy \
+> :+1: very good management of digital transformation strategy. \
+
+\
+
+Typical user journey for an admin:
+> 1. user connects to the web app from Solidatech's website
+> 2. user connects to an admin account and lands on home page
+> 3. user adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-product-tutorial matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
 
 
 ## :file_folder: Repository organization
