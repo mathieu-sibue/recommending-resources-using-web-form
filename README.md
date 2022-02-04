@@ -20,7 +20,8 @@ In a few words:
   <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.jpeg" width="700" title="website"></a>
 </p>
 
-To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Using a questionaire and recommendation rules (one-to-many question-resource matchings) fully editable by Solidatech, nonprofits can get personalized product & tutorial suggestions based on their answers to the form. The use of rule-based recommendations was motivated by the lack of training data and the existence of simple business logic to implement.
+To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Using a questionaire and recommendation rules (one-to-many question-resource matchings) both fully editable by Solidatech, **personalized product and tutorial suggestions** can be made to nonprofits based on their answers. The use of rule-based recommendations was motivated by the lack of training data and by the existence of simple business rules to guide suggestions.
+
 Here are the credentials of a **dummy account** for you to explore a bit more the web app:
 > - **email:** ```jane.doe1982@gmail.com```
 > - **password:** ```ezpassword```
