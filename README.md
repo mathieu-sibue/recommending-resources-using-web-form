@@ -17,7 +17,7 @@ In a few words:
 
 ## :bulb: Methodology
 <p align="center">
-  <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.jpeg" width="900" title="website"></a>
+  <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.jpeg" width="700" title="website"></a>
 </p>
 
 To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Here are the credentials of a **dummy account** for you to explore a bit more the web app:
