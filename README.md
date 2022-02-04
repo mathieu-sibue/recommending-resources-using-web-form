@@ -16,7 +16,9 @@ In a few words:
 
 
 ## :bulb: Methodology
-
+<p align="center">
+  <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.png" width="900" title="website"></a>
+</p>
 
 
 ## :file_folder: Repository organization
