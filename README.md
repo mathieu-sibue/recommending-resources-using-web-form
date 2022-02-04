@@ -60,6 +60,7 @@ The repository is organized in the following way:
 
 ## :wrench:	Techs used
 
+All the code was written in ```JavaScript```, ```HTML```, and ```CSS``` :desktop_computer::
 
 
 ## :warning: Disclaimer
