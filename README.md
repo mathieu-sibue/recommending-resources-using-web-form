@@ -27,17 +27,17 @@ As the web app is in French, I recommend using the Google Translate functionalit
 
 
 :man: Typical **user journey for a client**:
-> 1. client connects to the web app from Solidatech's website
-> 2. client creates or connects to an account and lands on home page (=> use the credentials provided above)
-> 3. client fills the questionaire divided in 7 sections; answers are saved throughout completion (answers are then sent to the backend of the web app to compute personalized recommendations based on a scoring algorithm and editable rules defined by Solidatech)
-> 4. client is redirected to a dashboard gathering most relevant product & tutorial suggestions
-> 5. client disconnects from the website; results will be still be accessible later on.
+1. client connects to the web app from Solidatech's website
+2. client creates or connects to an account and lands on home page (=> use the credentials provided above)
+3. client fills the questionaire divided in 7 sections; answers are saved throughout completion (answers are then sent to the backend of the web app to compute personalized recommendations based on a scoring algorithm and editable rules defined by Solidatech)
+4. client is redirected to a dashboard gathering most relevant product & tutorial suggestions
+5. client disconnects from the website; results will be still be accessible later on.
 
 
 :woman_office_worker: Typical **user journey for an admin**:
-> 1. admin connects to the web app from Solidatech's website
-> 2. admin connects to a special admin account and lands on home page
-> 3. admin adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-product-tutorial matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
+1. admin connects to the web app from Solidatech's website
+2. admin connects to a special admin account and lands on home page
+3. admin adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-product-tutorial matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
 
 
 ## :file_folder: Repository organization
