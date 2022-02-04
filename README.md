@@ -26,24 +26,15 @@ To solve our problem, we developed a **web application now deployed at https://d
 As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages in English.
 
 
-- Typical **user journey for a client**:
+-> Typical **user journey for a client**:
 > 1. client connects to the web app from Solidatech's website
 > 2. client creates or connects to an account and lands on home page (=> use the credentials provided above)
 > 3. client fills the questionaire divided in 7 sections (answers are then sent to the backend of the web app to compute personalized recommendations based on a scoring algorithm and editable rules defined by Solidatech)
 > 4. client is redirected to a dashboard gathering most relevant product & tutorial suggestions
 > 5. client disconnects from the website; results will be still be accessible later on.
 
-Note: In the case of the dummy account provided above, its affiliated organization has:
-> :pinched_fingers: mediocre network animation \
-> :+1: very good visibility on the web \
-> :+1: very good collaborative work ethic \
-> :-1: poor project funding \
-> :pinched_fingers: mediocre human and financial resources management \
-> :-1: poor securization of web resources and compliance with regulations \
-> :+1: very good management of digital transformation strategy. 
 
-
-- Typical **user journey for an admin**:
+-> Typical **user journey for an admin**:
 > 1. admin connects to the web app from Solidatech's website
 > 2. admin connects to a special admin account and lands on home page
 > 3. admin adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-product-tutorial matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
