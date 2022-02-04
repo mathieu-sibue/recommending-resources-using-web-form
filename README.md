@@ -11,7 +11,7 @@ Solidatech is a French tech4good NGO that sells software and hardware solutions 
 
 In a few words:
 <p align="center">
-  <a href="#"><img src="./resources/objective.png" width="600" title="objective"></a>
+  <a href="#"><img src="./resources/objective.png" width="550" title="objective"></a>
 </p>
 
 
