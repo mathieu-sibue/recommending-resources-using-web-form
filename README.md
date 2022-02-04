@@ -23,7 +23,8 @@ In a few words:
 To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Here are the credentials of a **dummy account** for you to explore a bit more the web app:
 > - **email:** ```jane.doe1982@gmail.com```
 > - **password:** ```ezpassword```
-As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages in English. \
+As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages in English.
+
 
 
 :man: Typical **user journey for a client**:
@@ -31,7 +32,8 @@ As the web app is in French, I recommend using the Google Translate functionalit
 2. client creates or connects to an account and lands on home page (=> use the credentials provided above)
 3. client fills the questionaire divided in 7 sections; answers are saved throughout completion (answers are then sent to the backend of the web app to compute personalized recommendations based on a scoring algorithm and editable rules defined by Solidatech)
 4. client is redirected to a dashboard gathering most relevant product & tutorial suggestions
-5. client disconnects from the website; results will be still be accessible later on. \
+5. client disconnects from the website; results will be still be accessible later on.
+
 
 
 :woman_office_worker: Typical **user journey for an admin**:
