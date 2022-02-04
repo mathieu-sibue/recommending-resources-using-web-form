@@ -25,7 +25,6 @@ To solve our problem, we developed a **web application now deployed at https://d
 > - **password:** ```ezpassword```
 As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages in English.
 
-\
 
 Typical user journey for a client:
 > 1. user connects to the web app from Solidatech's website
@@ -41,9 +40,8 @@ In the case of the dummy account provided above, its affiliated organization has
 > :-1: poor project funding \
 > :pinched_fingers: mediocre human and financial resources management \
 > :-1: poor securization of web resources and compliance with regulations \
-> :+1: very good management of digital transformation strategy. \
+> :+1: very good management of digital transformation strategy. 
 
-\
 
 Typical user journey for an admin:
 > 1. user connects to the web app from Solidatech's website
