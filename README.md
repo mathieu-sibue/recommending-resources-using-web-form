@@ -72,7 +72,7 @@ Thanks to:
 > - Clémence David
 > - Arnaud Guibbert
 
-for your contribution to this project!
+for your contribution on this project!
 
 ## :warning: Disclaimer
 
