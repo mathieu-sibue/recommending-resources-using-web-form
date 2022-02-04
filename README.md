@@ -20,7 +20,7 @@ In a few words:
   <a href="https://diagnostic-numerique.solidatech.fr/"><img src="./resources/website.jpeg" width="700" title="website"></a>
 </p>
 
-To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Using a questionaire and recommendation rules (one-to-many question-resource matchings) both fully editable by Solidatech, **personalized product and tutorial suggestions** are made to nonprofits based on their answers. The use of rule-based recommendations was motivated by a lack of training data and by the pre-existence of easy-to-implement business rules to guide suggestions.
+To solve our problem, we developed a **web application now deployed at https://diagnostic-numerique.solidatech.fr/ (300+ users)**. Using a questionaire and recommendation rules (one-to-many question-resource(s) matchings) both fully editable by Solidatech, **personalized product and tutorial suggestions** are made to nonprofits based on their answers. The use of rule-based recommendations was motivated by a lack of training data and by the pre-existence of easy-to-implement business rules to guide suggestions.
 
 Here are the credentials of a **dummy account** for you to explore a bit more the web app:
 > - **email:** ```jane.doe1982@gmail.com```
@@ -41,7 +41,7 @@ As the web app is in French, I recommend using the Google Translate functionalit
 :woman_office_worker: Typical **user journey for an admin**:
 1. admin connects to the web app from Solidatech's website
 2. admin connects to a special admin account and lands on home page
-3. admin adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-product-tutorial matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
+3. admin adds/edits/re-orders/deletes questions, adds/edits/deletes products, adds/edits/deletes tutorials, edits question-resource(s) matchings (which trigger recommendations), visualizes overall user activity, most recommended products, average score per section,...
 
 
 ## :file_folder: Repository organization
