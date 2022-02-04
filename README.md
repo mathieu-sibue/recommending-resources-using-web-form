@@ -50,7 +50,7 @@ The repository is organized in the following way:
   <a href="#"><img src="./resources/frontend.png" width="600" title="frontend"></a>
 </p>
 
-> - the ```backend``` folder contains all the backend routes and services (such as the resource ranking algorithm); the diagram below illustrates the interdependencies between the files
+> - the ```backend``` folder contains all the backend routes, controllers, and services (such as the resource ranking algorithm); the diagram below illustrates the interdependencies between the files
 <p align="center">
   <a href="#"><img src="./resources/backend.png" width="600" title="backend"></a>
 </p>
