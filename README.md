@@ -70,9 +70,9 @@ All the code was written in ```JavaScript```, ```HTML```, and ```CSS``` :desktop
 ## :family_man_woman_girl_boy: Credits
 
 Thanks to:
+> - Arnaud Guibbert
 > - Céline Recio
 > - Clémence David
-> - Arnaud Guibbert
 
 for your contribution on this project!
 
