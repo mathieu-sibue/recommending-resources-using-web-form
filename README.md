@@ -24,8 +24,9 @@ To solve our problem, we developed a **web application now deployed at https://d
 
 Here are the credentials of a **dummy account** for you to explore a bit more the web app:
 > - **email:** ```jane.doe1982@gmail.com```
-> - **password:** ```ezpassword```
-As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages into English.
+> - **password:** ```ezpassword```.
+
+:fr: As the web app is in French, I recommend using the Google Translate functionality on Google Chrome to translate the pages into English.
 
 
 
